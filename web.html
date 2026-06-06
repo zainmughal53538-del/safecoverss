@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SafeCover Insurance - Protect What Matters Most</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        navy: '#1e3a8a',
+        gold: '#d4af37'
+      }
+    }
+  }
+}
+</script>
+</head>
+<body class="font-sans text-gray-800">
+
+<!-- Sticky Navbar -->
+<nav class="sticky top-0 z-50 bg-white shadow-md">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-navy">SafeCover</h1>
+    <div class="hidden md:flex gap-6 font-medium">
+      <a href="#home" class="hover:text-gold">Home</a>
+      <a href="#about" class="hover:text-gold">About</a>
+      <a href="#services" class="hover:text-gold">Services</a>
+      <a href="#quote" class="hover:text-gold">Get Quote</a>
+      <a href="#contact" class="hover:text-gold">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Home -->
+<section id="home" class="bg-gradient-to-r from-navy to-blue-700 text-white py-20">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">Protect What Matters Most</h2>
+    <p class="text-lg mb-8">Reliable insurance coverage for your car, health, life & travel</p>
+    <a href="#quote" class="bg-gold text-navy px-8 py-3 rounded-lg font-semibold hover:bg-yellow-400">Get Free Quote</a>
+
+    <div class="flex flex-wrap justify-center gap-6 mt-12">
+      <div class="bg-white/10 px-6 py-3 rounded-lg">✓ Licensed</div>
+      <div class="bg-white/10 px-6 py-3 rounded-lg">✓ 24/7 Support</div>
+      <div class="bg-white/10 px-6 py-3 rounded-lg">✓ 5K+ Clients</div>
+    </div>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-4 gap-6 mt-16">
+    <div class="bg-white text-gray-800 p-6 rounded-xl shadow-lg text-center">
+      <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400" class="rounded mb-4 h-40 w-full object-cover">
+      <h3 class="font-bold text-xl mb-2">Car Insurance</h3>
+      <a href="#services" class="text-navy font-semibold">Learn More →</a>
+    </div>
+    <div class="bg-white text-gray-800 p-6 rounded-xl shadow-lg text-center">
+      <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400" class="rounded mb-4 h-40 w-full object-cover">
+      <h3 class="font-bold text-xl mb-2">Health Insurance</h3>
+      <a href="#services" class="text-navy font-semibold">Learn More →</a>
+    </div>
+    <div class="bg-white text-gray-800 p-6 rounded-xl shadow-lg text-center">
+      <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400" class="rounded mb-4 h-40 w-full object-cover">
+      <h3 class="font-bold text-xl mb-2">Life Insurance</h3>
+      <a href="#services" class="text-navy font-semibold">Learn More →</a>
+    </div>
+    <div class="bg-white text-gray-800 p-6 rounded-xl shadow-lg text-center">
+      <img src="https://images.unsplash.com/photo-1488085061387-422e29b40080?w=400" class="rounded mb-4 h-40 w-full object-cover">
+      <h3 class="font-bold text-xl mb-2">Travel Insurance</h3>
+      <a href="#services" class="text-navy font-semibold">Learn More →</a>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="py-20 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h2 class="text-3xl font-bold text-navy mb-4">About SafeCover</h2>
+      <p class="mb-4">For 10+ years, SafeCover Insurance has been helping families and businesses secure their future. Our customer-first approach means we’re always on your side when it matters most.</p>
+      <p class="font-semibold text-navy">Mission: Making insurance simple, transparent, and stress-free.</p>
+    </div>
+    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600" class="rounded-xl shadow-lg">
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="py-20">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-navy text-center mb-12">Our Insurance Services</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="border border-gray-200 p-6 rounded-xl">
+        <h3 class="font-bold text-xl mb-3">Car Insurance</h3>
+        <ul class="list-disc pl-5 mb-4 space-y-1">
+          <li>Accident & theft coverage</li>
+          <li>24/7 roadside assistance</li>
+          <li>Cashless garage network</li>
+        </ul>
+        <button class="bg-navy text-white px-4 py-2 rounded hover:bg-blue-900">Calculate Premium</button>
+      </div>
+      <div class="border border-gray-200 p-6 rounded-xl">
+        <h3 class="font-bold text-xl mb-3">Health Insurance</h3>
+        <ul class="list-disc pl-5 mb-4 space-y-1">
+          <li>Hospitalization coverage</li>
+          <li>Pre & post hospitalization</li>
+          <li>Cashless treatment</li>
+        </ul>
+        <button class="bg-navy text-white px-4 py-2 rounded hover:bg-blue-900">Calculate Premium</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Slider -->
+<section class="py-16 bg-gray-50">
+  <div class="max-w-4xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold text-navy mb-10">What Clients Say</h2>
+    <div id="testimonial" class="bg-white p-8 rounded-xl shadow">
+      <p class="italic mb-4" id="t-text">"SafeCover made my claim process super easy. Highly recommend!"</p>
+      <p class="font-semibold" id="t-name">- Ahmed Khan</p>
+    </div>
+  </div>
+</section>
+
+<!-- Get Quote -->
+<section id="quote" class="py-20 bg-navy text-white">
+  <div class="max-w-3xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-8">Get Free Quote</h2>
+    <form class="bg-white text-gray-800 p-8 rounded-xl space-y-4">
+      <input type="text" placeholder="Name" class="w-full border p-3 rounded" required>
+      <input type="tel" placeholder="Phone" class="w-full border p-3 rounded" required>
+      <input type="email" placeholder="Email" class="w-full border p-3 rounded" required>
+      <select class="w-full border p-3 rounded">
+        <option>Car Insurance</option>
+        <option>Health Insurance</option>
+        <option>Life Insurance</option>
+        <option>Travel Insurance</option>
+      </select>
+      <textarea placeholder="Message" class="w-full border p-3 rounded"></textarea>
+      <p class="text-sm text-gray-600">We respect your data</p>
+      <button type="submit" class="w-full bg-gold text-navy py-3 rounded font-semibold hover:bg-yellow-400">Submit</button>
+    </form>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-20">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10">
+    <div>
+      <h2 class="text-3xl font-bold text-navy mb-4">Contact Us</h2>
+      <p class="mb-2">📍 123 Main Street, Lahore, Pakistan</p>
+      <p class="mb-2">📞 +92 300 1234567</p>
+      <p class="mb-4">✉️ support@safecover.com</p>
+      <a href="https://wa.me/923001234567" class="bg-green-500 text-white px-6 py-3 rounded inline-block">WhatsApp Us</a>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54480!2d74.3!3d31.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDMwJzAwLjAiTiA3NMKwMTgnMDAuMCJF!5e0!3m2!1sen!2s!4v1" class="w-full h-64 rounded-xl"></iframe>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-8">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <div class="flex justify-center gap-6 mb-4">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+    </div>
+    <p>© 2026 SafeCover Insurance. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+// Simple testimonial slider
+const testimonials = [
+  {text: "SafeCover made my claim process super easy. Highly recommend!", name: "- Ahmed Khan"},
+  {text: "Best customer support. They guided me through everything.", name: "- Sara Ali"},
+  {text: "Affordable plans and quick service. 5 stars!", name: "- Usman Tariq"}
+];
+let i = 0;
+setInterval(() => {
+  i = (i + 1) % testimonials.length;
+  document.getElementById('t-text').textContent = `"${testimonials[i].text}"`;
+  document.getElementById('t-name').textContent = testimonials[i].name;
+}, 4000);
+</script>
+
+</body>
+</html>
